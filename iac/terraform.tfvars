@@ -22,11 +22,11 @@ database_instance_class      = "db.t2.micro"
 publicly_accessible          = "false"
 
 # acm variables
-domain_name       = 
-alternative_names = 
+domain_name       = "pixelpioneer.link"
+alternative_names = "*.pixelpioneer.link"
 
 # s3 variables
-env_file_bucket_name = "doraelearning-app2"
+env_file_bucket_name = "renzone-env-app2-bucket"
 env_file_name        = "env-variables-file.env"
 
 # ecs variables
