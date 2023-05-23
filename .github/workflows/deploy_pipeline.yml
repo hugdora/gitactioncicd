@@ -140,8 +140,7 @@ jobs:
       image_tag: ${{ env.IMAGE_TAG }}
       private_data_subnet_az1_id: ${{ env.PRIVATE_DATA_SUBNET_AZ1_ID }}
       runner_security_group_id: ${{ env.RUNNER_SECURITY_GROUP_ID }}
-      task_definition_name: 
-        ${{ env.TASK_DEFINITION_NAME }}
+      task_definition_name: ${{ env.TASK_DEFINITION_NAME }}
       ecs_cluster_name: ${{ env.ECS_CLUSTER_NAME }}
       ecs_service_name: ${{ env.ECS_SERVICE_NAME }}
       environment_file_name: ${{ env.ENVIRONMENT_FILE_NAME }}
